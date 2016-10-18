@@ -1,0 +1,49 @@
+figure ul li{
+  /*float:left;*/
+  width: 200px;
+  height: 75px;
+  margin: 10px;
+  align: center;
+}
+
+figure ul li.firstDisc{
+  width: 75px;
+  background: gray;
+  border-radius: 25px;
+  margin: 10px 70px;
+}
+
+figure ul li.secondDisc{
+  background: gray;
+  width: 125px;
+  border-radius: 25px;
+  margin: 10px 45px;
+}
+
+figure ul li.thirdDisc{
+  width: 200px;
+  background: gray;
+  border-radius: 25px;
+}
+
+
+
+figure ul li:last-child{
+  background: blue;
+  height: 25px;
+}
+
+figure ul li:last-child:hover{
+  background: red;
+}
+
+figure ul{
+  float:left;
+  width: 200px;
+  list-style: none;
+  cursor: pointer;
+}
+
+body {
+  margin:auto;
+}
